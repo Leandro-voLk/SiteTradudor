@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>voLk Tradutor</title>
+    <meta name="description"
+        content="Tradutor online simples desenvolvido com HTML, CSS e JavaScript por Leandro Nascimento (voLk)">
+
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- Logo -->
+        <header class="logo-area">
+            <img src="./imagens/logo.png" alt="voLk Tradutor" class="logo">
+        </header>
+
+
+        <section class="caixa-maior">
+
+            <select class="deidioma">
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="ja">Japonês</option>
+                <option value="de">Alemão</option>
+                <option value="pt">Português</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Russo</option>
+                <option value="zh-CN">Chinês</option>
+                <option value="ar">Árabe</option>
+            </select>
+
+            <textarea class="input-texto" placeholder="Digite o texto aqui..."></textarea>
+
+            <div class="controle">
+
+                <select class="idioma">
+                    <option value="en">Inglês</option>
+                    <option value="es">Espanhol</option>
+                    <option value="fr">Francês</option>
+                    <option value="ja">Japonês</option>
+                    <option value="de">Alemão</option>
+                    <option value="pt">Português</option>
+                    <option value="it">Italiano</option>
+                    <option value="ru">Russo</option>
+                    <option value="zh-CN">Chinês</option>
+                    <option value="ar">Árabe</option>
+                </select>
+
+                <button class="btn-traduzir">Traduzir</button>
+                <button class="btn-microfone">🎤</button>
+
+            </div>
+
+            <div class="resultado">
+                <h3 class="titulo-traducao">Tradução:</h3>
+                <p class="traducao"></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
